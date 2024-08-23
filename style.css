@@ -31,7 +31,7 @@
 .dashboard{
     padding-left: 20px;
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 1.3em;
 }
 .settings{
     padding-left: 25px;
@@ -43,23 +43,98 @@
 }
 .sidebar li{
     cursor: pointer;
+    list-style: none;
+    margin-bottom: 28px;
 }
 
-
+/* Header*/
 .header{
     background-color: white;
     grid-row: 1/2;
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2,1fr);
 }
+.searchbar{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+#search{
+    background-color: rgb(219, 226, 236);
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    height: 55%;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.account{
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.account .cat{
+    font-size: 2em;
+    color: rgb(248, 195, 19);
+    translate: 0 -10px;
+}
+.account .fa-bell{
+    font-size: 1.2em;
+}
+
+.name{
+    padding-left: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-columns: 100px 400px;
+    font-size: 14px;
+}
+.name .cat{
+    grid-row: 1/4;
+    font-size: 5em;
+    color: rgb(248, 195, 19);
+}
+.name .greeting{
+    grid-row: 2/3;
+}
+.name .title{
+    grid-row: 3/4;
+    font-size: 2em;
+}
+
+.share{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    align-items: center;
+}
+.share button{
+    background-color: rgb(26, 126, 206);
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    width: 22%;
+    height: fit-content;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 .content{
     background-color: rgb(219, 226, 236);
     grid-row: 2/3;
     grid-column: 2/3;
-}
-
-
-li{
-    list-style: none;
-    margin-bottom: 28px;
 }
