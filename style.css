@@ -244,7 +244,8 @@
     background-color: white;
     border-radius: 10px;
     width: 300px;
-    padding-top: 23px;
+    height: 290px;
+    padding-top: 10px;
     padding-right: 40px;
 }
 
@@ -275,4 +276,9 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(2,1fr);
     margin: 18px;
-  }
+}
+
+#title{
+    font-weight: 500;
+    margin-bottom: 3px;
+}
