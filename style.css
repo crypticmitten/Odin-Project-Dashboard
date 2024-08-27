@@ -263,12 +263,14 @@
     grid-row: 1/2;
     grid-column: 2/3;
     font-size: 16px;
+    font-weight: 400;
 }
 .trending-content .title{
     grid-row: 2/3;
     grid-column: 2/3;
     font-size: 16px;
     color: rgb(136, 136, 136);
+    font-weight: 300;
 }
 .trending-content li:nth-child(-n+4){
     display: list-item;
